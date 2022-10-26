@@ -5,6 +5,6 @@ console.log(secondWord);
 
 if ( firstWord.length > secondWord.length ) {
     console.log(secondWord,firstWord);
-} else {
+} else (secondWord.length > firstWord.length) {
     console.log(firstWord, secondWord);
 }
