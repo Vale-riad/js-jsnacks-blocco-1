@@ -1,12 +1,12 @@
-const numbers = ["3", "4", "7", " 2"];
+const numbers = [3, 4, 7, 2];
 console.log(numbers);
 
-i = 0;
+let i = 0;
 let sum = 0;
 
 while(i < numbers.length){
-    if(i % 2 == 0){
-        sum = sum + i;
+    if(i % 2 == 1){
+        sum = sum + numbers[i];
     }
     i++
 }
